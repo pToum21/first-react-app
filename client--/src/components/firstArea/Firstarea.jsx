@@ -3,7 +3,9 @@ import Figure from 'react-bootstrap/Figure';
 function FirstArea() {
     return (
         <div className="container">
+            
             <Figure className="my-5 d-flex flex-column align-items-center justify-content-center text-center">
+            <h2>Car Of The Day</h2>
                 <Figure.Image
                     width={1000} 
                     height={400} 
