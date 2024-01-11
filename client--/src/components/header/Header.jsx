@@ -27,6 +27,7 @@ const Header = () => {
     const descriptionStyle = {
         fontSize: "1.2rem",
         lineHeight: "1.5",
+        color: "gray"
     };
 
     const imgStyle = {
