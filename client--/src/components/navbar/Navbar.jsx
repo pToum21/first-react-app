@@ -6,9 +6,9 @@ function TopBar() {
     return (
         <Navbar bg="dark" data-bs-theme="dark">
             <Container>
-                <Navbar.Brand href="#home">BuyACar</Navbar.Brand>
+                <Navbar.Brand href="#home">ViewACar</Navbar.Brand>
                 <Nav className="me-auto">
-                    <Nav.Link href="#home">Sale Of The Day</Nav.Link>
+                    <Nav.Link href="#home">Car Of The Day</Nav.Link>
                     <Nav.Link href="#features">About Us</Nav.Link>
                     <Nav.Link href="#pricing">Contact Us</Nav.Link>
                 </Nav>

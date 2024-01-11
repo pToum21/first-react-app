@@ -1,16 +1,19 @@
 import { useState } from 'react'
 import Header from './components/header/Header'
 import FirstArea from './components/firstArea/Firstarea'
-import Topbar from './components/navbar/Navbar'
+import Topbar from './components/navbar/Navbar';
+import Cars from './components/carDesc/Cars';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {  
+
+function App() {
   return (
     <>
-    <Topbar />
-    <Header />
-    <FirstArea />
-    </>    
+      <Topbar />
+      <Header />
+      <FirstArea />
+      <Cars />
+    </>
   )
 }
 

@@ -10,7 +10,7 @@ const Header = () => {
         backgroundColor: "#1a1a1a",
         color: "white",
         fontFamily: "'Poppins', sans-serif",
-        padding: "20px",
+        padding: "10px 20px",
     };
 
     const textContainerStyle = {
@@ -20,18 +20,18 @@ const Header = () => {
     };
 
     const headingStyle = {
-        fontSize: "2.5rem",
-        marginBottom: "10px",
+        fontSize: "2rem",
+        marginBottom: "8px",
     };
 
     const descriptionStyle = {
-        fontSize: "1.2rem",
+        fontSize: "1rem",
         lineHeight: "1.5",
         color: "gray"
     };
 
     const imgStyle = {
-        width: "175px",
+        width: "150px",
         height: "auto",
         boxShadow: "0 0 10px 5px rgba(255, 255, 255, 0.7)",
         opacity: 0.6,
@@ -40,8 +40,8 @@ const Header = () => {
     return (
         <div className='full-header' style={containerStyle}>
             <div style={textContainerStyle}>
-                <h1 className="header-title" style={headingStyle}>Buy a Car Today!</h1>
-                <p className="header-desc" style={descriptionStyle}>With the best prices on the west coast, BuyaCar meets all your needs</p>
+                <h1 className="header-title" style={headingStyle}>View a Car Today!</h1>
+                <p className="header-desc" style={descriptionStyle}>Learn About the Newest & Coolest Cars on the market</p>
             </div>
             <img style={imgStyle} src="https://www.shutterstock.com/image-vector/car-shop-shopping-logo-design-260nw-574467076.jpg" alt="buy a car logo" />
         </div>
