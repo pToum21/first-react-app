@@ -5,10 +5,13 @@ const containerStyle = {
     justifyContent: "space-between", 
     alignItems: "center",
     textAlign: "center",
+    
 }
 
 const textContainerStyle = {
     textAlign: "left", 
+    width: "70%",
+    height: "auto"
 }
 
 const imgStyle = {
