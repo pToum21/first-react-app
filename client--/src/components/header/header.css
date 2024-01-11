@@ -1,0 +1,11 @@
+.full-header {
+    background-color: rgb(182, 226, 247);
+    border: black solid 3px;
+    
+}
+
+.header-title, .header-desc{
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

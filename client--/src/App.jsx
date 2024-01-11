@@ -1,9 +1,9 @@
 import { useState } from 'react'
-
+import Header from './components/header/Header'
 
 function App() {  
   return (
-    <h1>Heloo</h1>
+    <Header />
   )
 }
 
