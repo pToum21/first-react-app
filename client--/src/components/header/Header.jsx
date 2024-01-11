@@ -43,7 +43,7 @@ const Header = () => {
                 <h1 className="header-title" style={headingStyle}>View a Car Today!</h1>
                 <p className="header-desc" style={descriptionStyle}>Learn About the Newest & Coolest Cars on the market</p>
             </div>
-            <img style={imgStyle} src="https://www.shutterstock.com/image-vector/car-shop-shopping-logo-design-260nw-574467076.jpg" alt="buy a car logo" />
+            <img style={imgStyle} src="https://evermotion.org/files/model_images/06_vray_back_wire.jpg" alt="buy a car logo" />
         </div>
     );
 }
