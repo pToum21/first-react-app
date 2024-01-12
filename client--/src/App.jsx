@@ -4,17 +4,7 @@ import FirstArea from './components/firstArea/Firstarea';
 import Topbar from './components/navbar/Navbar';
 import Cars from './components/carDesc/Cars';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-const dotContainerStyle = {
-  position: 'fixed',
-  top: 0,
-  left: 0,
-  width: '100%',
-  height: '100%',
-  pointerEvents: 'none',
-  zIndex: -1, // Ensure dots are behind other content
-  animation: 'flow 20s infinite', // Slower animation that lasts longer
-};
+import './styles.css'; 
 
 function App() {
   useEffect(() => {
@@ -44,25 +34,18 @@ function App() {
 
   return (
     <>
-      {/* Animated Dots Background */}
-      <div style={dotContainerStyle}>
+      <div className="dot-container">
         {Array.from({ length: 200 }, (_, index) => {
           const dotStyle = {
-            width: '8px', // Slightly larger width
-            height: '8px', // Slightly larger height
-            backgroundColor: getRandomColor(), // Random color for each dot with 0.5 opacity
-            borderRadius: '50%',
-            position: 'absolute',
-            animation: 'flow 20s infinite', // Same animation duration as dotContainerStyle
-            left: `${Math.random() * 100}vw`, // Random horizontal position
-            top: `${Math.random() * 100}vh`, // Random vertical position
-            animationDelay: `-${Math.random() * 20}s`, // Random animation delay
+            backgroundColor: getRandomColor(),
+            left: `${Math.random() * 100}vw`,
+            top: `${Math.random() * 100}vh`,
+            animationDelay: `-${Math.random() * 20}s`,
           };
-          return <div style={dotStyle} key={index}></div>;
+          return <div className="dot" style={dotStyle} key={index}></div>;
         })}
       </div>
-
-      {/* Other Components */}
+      
       <Topbar />
       <Header />
       <FirstArea />
