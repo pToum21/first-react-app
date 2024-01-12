@@ -3,6 +3,7 @@ import Header from './components/header/Header';
 import Topbar from './components/navbar/Navbar';
 import Cars from './components/carDesc/Cars';
 import CarOfTheDay from './components/caroftheday/CarOfTheDay';
+import Footer from './components/footer/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -55,6 +56,7 @@ function App() {
       <Header />
       <CarOfTheDay />
       <Cars />
+      <Footer />
     </>
   );
 }

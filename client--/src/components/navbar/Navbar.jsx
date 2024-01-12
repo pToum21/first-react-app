@@ -7,7 +7,7 @@ function TopBar() {
 
 
     return (
-        <Navbar bg="dark" expand="lg" variant="dark">
+        <Navbar id="nav" bg="dark" expand="lg" variant="dark">
             <Container fluid>
                 <Navbar.Brand href="#home" >ViewACar</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbar-nav" />
