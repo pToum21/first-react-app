@@ -1,6 +1,13 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
+const fontSize = {
+    fontFamily: "'Poppins', sans-serif",
+    fontSize: "20px",
+    display: "flex",
+    alignItems: "end"
+
+}
 
 function Footer() {
     return (
@@ -10,7 +17,7 @@ function Footer() {
                     <Button variant="outline-light" href="#contact" className="text-decoration-none mb-2">
                         Contact Us
                     </Button>
-                    <p>ViewACar</p>
+                    <p style={fontSize}>👀ViewACar🚗</p>
                     <Button variant="outline-light" href="#nav" className="text-decoration-none mb-2">
                         Top of Page
                     </Button>

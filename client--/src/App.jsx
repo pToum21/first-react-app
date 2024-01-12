@@ -4,6 +4,9 @@ import Topbar from './components/navbar/Navbar';
 import Cars from './components/carDesc/Cars';
 import CarOfTheDay from './components/caroftheday/CarOfTheDay';
 import Footer from './components/footer/Footer';
+
+import About from './pages/AboutUs';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -52,6 +55,10 @@ function App() {
         })}
       </div>
       {/* components */}
+      {/* all components here are their own pages */}
+        <About />
+
+      {/* all components here are on the homepage */}
       <Topbar />
       <Header />
       <CarOfTheDay />
