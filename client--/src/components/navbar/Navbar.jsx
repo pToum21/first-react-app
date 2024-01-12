@@ -4,17 +4,20 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function TopBar() {
     return (
-        <Navbar bg="dark" data-bs-theme="dark">
-            <Container>
+        <Navbar bg="dark" expand="lg" variant="dark">
+            <Container fluid>
                 <Navbar.Brand href="#home">ViewACar</Navbar.Brand>
-                <Nav className="me-auto">
-                    <Nav.Link href="#home">Car Of The Day</Nav.Link>
-                    <Nav.Link href="#features">About Us</Nav.Link>
-                    <Nav.Link href="#pricing">Contact Us</Nav.Link>
-                </Nav>
+                <Navbar.Toggle aria-controls="navbar-nav" />
+                <Navbar.Collapse id="navbar-nav">
+                    <Nav className="me-auto">
+                        <Nav.Link href="#home">Car Of The Day</Nav.Link>
+                        <Nav.Link href="#features">About Us</Nav.Link>
+                        <Nav.Link href="#pricing">Contact Us</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
             </Container>
         </Navbar>
-    )
+    );
 }
 
 export default TopBar;
