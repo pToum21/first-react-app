@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 
 function App() {
+  // this is for animation behind components
   useEffect(() => {
     const keyframes = `
       @keyframes flow {
@@ -30,10 +31,12 @@ function App() {
     };
   }, []);
 
+  // random color generator for the animation
   const getRandomColor = () => {
     return `rgba(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255}, 0.5)`; // Random RGBA color with 0.5 opacity
   };
 
+  // where all the compnets are rendered
   return (
     <>
       <div className="dot-container">
@@ -47,7 +50,7 @@ function App() {
           return <div className="dot" style={dotStyle} key={index}></div>;
         })}
       </div>
-
+      {/* components */}
       <Topbar />
       <Header />
       <CarOfTheDay />

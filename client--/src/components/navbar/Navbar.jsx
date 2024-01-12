@@ -15,7 +15,7 @@ function TopBar() {
                     <Nav className="me-auto">
                         <Nav.Link href='#carOfTheDay'>Car Of The Day</Nav.Link>
                         <Nav.Link href="#features">About Us</Nav.Link>
-                        <Nav.Link href="#pricing">Contact Us</Nav.Link>
+                        <Nav.Link href="#footer">Contact Us</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
