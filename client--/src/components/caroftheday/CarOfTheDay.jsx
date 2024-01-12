@@ -8,7 +8,7 @@ const fontstyle = {
 
 function CarOfTheDay() {
     return (
-        <div className="container">
+        <div id="carOfTheDay" className="container">
             
             <Figure className="my-5 d-flex flex-column align-items-center justify-content-center text-center">
             <h2 style={fontstyle}>Car Of The Day</h2>
