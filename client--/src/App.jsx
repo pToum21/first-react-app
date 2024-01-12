@@ -1,10 +1,12 @@
 import React, { useEffect } from 'react';
 import Header from './components/header/Header';
-import FirstArea from './components/firstArea/Firstarea';
 import Topbar from './components/navbar/Navbar';
 import Cars from './components/carDesc/Cars';
+import CarOfTheDay from './components/caroftheday/CarOfTheDay';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles.css'; 
+
+
+import './styles.css';
 
 function App() {
   useEffect(() => {
@@ -45,10 +47,10 @@ function App() {
           return <div className="dot" style={dotStyle} key={index}></div>;
         })}
       </div>
-      
+
       <Topbar />
       <Header />
-      <FirstArea />
+      <CarOfTheDay />
       <Cars />
     </>
   );

@@ -1,5 +1,10 @@
 /* used in app.jsx for animation */
 
+body {
+  background-color: #111; /* Dark background color */
+  color: #fff; /* Light text color */
+}
+
 @keyframes flow {
     0% {
       transform: translateY(0) translateX(0) rotate(0deg);
